@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <div class="main h-full w-full" id="main">
+
+        <div id="loader" class="bg-black flex h-[100vh] w-[100%] fixed z-[99]">
+            <div class="slide bg-white rounded-b-full h-[130vh] w-[100%]  mx-[0.6px]"></div>
+            <div class="slide bg-white rounded-b-full h-[130vh] w-[100%]  mx-[0.6px]"></div>
+            <div class="slide bg-white rounded-b-full h-[130vh] w-[100%]  mx-[0.6px]"></div>
+            <div class="slide bg-white rounded-b-full h-[130vh] w-[100%] mx-[0.6px] "></div>
+            <div class="slide bg-white rounded-b-full h-[130vh] w-[100%]  mx-[0.6px]"></div>
+            <div class="slide bg-white rounded-b-full h-[130vh] w-[100%] mx-[0.6px] "></div>
+
+        </div>
+
+        <div id="cursor"
+            class="curson h-8 w-8 rounded-full fixed z-10 flex items-center justify-center bg-transparent border  -translate-x-1/2 -translate-y-1/2">
+        </div>
+
+        <div class="Header w-full ">
+
+
+            <div class="parent relative top-0 left-0 w-full h-[350vh] ">
+                <div class="  w-full sticky top-0 left-0 h-screen">
+
+                    <div class="navbar flex flex-1  items-center justify-between px-5 py-5  absolute w-full text-white">
+                        <div class="logo">
+                            <!-- if there any logo img  -->
+                            <!-- <img src="#" alt="Logo"> -->
+                            <h1>[Variable]</h1>
+                        </div>
+                        <div class="nav-links flex justify-evenly w-1/2 font-sans text-xl font-medium">
+                            <a href="#" class="nav-link">Home</a>
+                            <a href="#" class="nav-link">About</a>
+                            <a href="#" class="nav-link">Services</a>
+                            <a href="#" class="nav-link">Contact</a>
+                        </div>
+                    </div>
+
+                    <canvas id="frame" class="w-full h-screen">
+
+
+
+                    </canvas>
+
+
+                </div>
+            </div>
+
+
+
+        </div>
+
+        <div id="page3">
+            <div id="page3-top">
+                <h4>Agency & Venture <samp>Models</samp></h4>
+                <h2>Explore our services</h2>
+                <h2>& engagement models</h2>
+            </div>
+            <div id="page3-ele">
+                <div class="box" id="Coded Website">
+                    <img src="https://images.prismic.io/rejouice/d8e1fa1f-4f24-41e1-a249-098c62df5aff_Group+46+%281%29.jpg?auto=compress,format"
+                        alt="">
+                    <video src="assets/Website-homepage-Work-01_1.mp4" loop muted autoplay></video>
+                </div>
+                <div class="box" id="Shopify">
+                    <img src="https://images.prismic.io/rejouice/e0350a3d-c390-4d97-af1a-5c86bc822b52_Group+3929.jpg?auto=compress,format"
+                        alt="">
+                    <video src="assets/Website-homepage-Work-02_1.mp4" loop muted autoplay></video>
+                </div>
+                <div class="box" id="Wix">
+                    <img src="https://images.prismic.io/rejouice/2874f084-ec6c-4a19-b025-a55c1e6db929_Group+3692.jpg?auto=compress,format"
+                        alt="">
+                    <video src=assets/Website-homepage-Work-03_1.mp4" loop muted autoplay></video>
+                </div>
+            </div>
+
+        </div>
+        <!-- About -->
+        <div class="About"></div>
+        <!-- Contact -->
+        <div class="Contact">
+            <div class="min-h-screen flex items-center justify-center bg-black text-white p-6">
+                <div class="max-w-4xl w-full grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div>
+                        <h1 class="md:text-[70px] font-bold text-4xl md:leading-[70px]">LET'S MAKE</h1>
+                        <h1 class="md:text-[70px] font-bold text-4xl md:leading-[70px]">SOMETHING</h1>
+                        <h1 class="md:text-[70px] font-bold text-4xl md:leading-[70px]  text-white">AWESOME.</h1>
+
+                    </div>
+                    <div>
+                        <form class="space-y-4" action="https://api.web3forms.com/submit" method="POST">
+                            <input type="hidden" name="access_key" value="d291a95f-a3a6-45c2-837b-359a1eef1cec">
+                            <input type="text" name='name' placeholder="Enter your name"
+                                class="w-full p-3 bg-black Font2 border border-white  focus:outline-none focus:border-zinc-300"
+                                required />
+                            <input type="email" name="email" id="email" placeholder="Enter your email" value=""
+                                class="w-full p-3 bg-black Font2 border border-white  focus:outline-none focus:border-zinc-300"
+                                required />
+                            <textarea name="message" placeholder="Enter your message" rows="4"
+                                class="w-full p-3 bg-black Font2 border border-white  focus:outline-none focus:border-zinc-300"
+                                required></textarea>
+                            <button type="submit"
+                                class="w-full p-3 bg-zinc-100 Font2 border border-white  text-zinc-900 font-bold  hover:bg-[#ffffff00] transition-all hover:text-white">
+                                SUBMIT
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="Footer bg-black ">
+            <h1 class="text-[17vw] font-semibold text-white ">VARIABLE</h1>
+            <footer class="bg-background p-8 text-white">
+                <div class="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
+                    <div>
+                        <h2 class="text-xl font-semibold">Contact</h2>
+                        <p>Variable Agency</p>
+                        <p>maharashtra Ahmednagar</p>
+                        <p>+91 9322693610</p>
+                        <p></p>
+                    </div>
+                    <div>
+                        <h2 class="text-xl font-semibold">Pages</h2>
+                        <ul>
+                            <li><a href="#" class="hover:text-primary">Home</a></li>
+                            <li><a href="#" class="hover:text-primary">Work</a></li>
+                            <li><a href="#" class="hover:text-primary">Solutions</a></li>
+                            <li><a href="#" class="hover:text-primary">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h2 class="text-xl font-semibold">Expertise</h2>
+                        <ul>
+                            <li><a href="#" class="hover:text-primary">Websites</a></li>
+                            <li><a href="#" class="hover:text-primary">add context</a></li>
+                            <li><a href="#" class="hover:text-primary">add cotext</a></li>
+                            <li><a href="#" class="hover:text-primary">add context</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h2 class="text-xl font-semibold">Links</h2>
+                        <ul>
+                            <li><a href="#" class="hover:text-primary">add context</a></li>
+                            <li><a href="#" class="hover:text-primary">add context</a></li>
+                            <li><a href="#" class="hover:text-primary">add context</a></li>
+                            <li><a href="#" class="hover:text-primary">add context</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+        integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+        integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="/Files/Canvas.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
