@@ -12,7 +12,7 @@ let frames = {
 function preloadImages() {
     for (let i = 1; i <= frames.maxindex; i++) {
         console.log(i)
-        let imageurl = `canvas/ese-hero-sequence${i.toString().padStart(2,"0")}.webp`
+        let imageurl = `/canvas/ese-hero-sequence${i.toString().padStart(2,"0")}.webp`
 
         let img = new Image();
         img.src = imageurl
