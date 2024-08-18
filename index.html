@@ -12,7 +12,7 @@
 <body>
     <div class="main h-full w-full" id="main">
 
-        <div id="loader" class="bg-black flex h-[100vh] w-[100%] fixed z-[99]">
+        <!-- <div id="loader" class="bg-black flex h-[100vh] w-[100%] fixed z-[99]">
             <div class="slide bg-white rounded-b-full h-[130vh] w-[100%]  mx-[0.6px]"></div>
             <div class="slide bg-white rounded-b-full h-[130vh] w-[100%]  mx-[0.6px]"></div>
             <div class="slide bg-white rounded-b-full h-[130vh] w-[100%]  mx-[0.6px]"></div>
@@ -20,7 +20,7 @@
             <div class="slide bg-white rounded-b-full h-[130vh] w-[100%]  mx-[0.6px]"></div>
             <div class="slide bg-white rounded-b-full h-[130vh] w-[100%] mx-[0.6px] "></div>
 
-        </div>
+        </div> -->
 
         <div id="cursor"
             class="curson h-8 w-8 rounded-full fixed z-10 flex items-center justify-center bg-transparent border  -translate-x-1/2 -translate-y-1/2">
@@ -32,18 +32,33 @@
             <div class="parent relative top-0 left-0 w-full h-[350vh] ">
                 <div class="  w-full sticky top-0 left-0 h-screen">
 
-                    <div class="navbar flex flex-1  items-center justify-between px-5 py-5  absolute w-full text-white">
-                        <div class="logo">
-                            <!-- if there any logo img  -->
-                            <!-- <img src="#" alt="Logo"> -->
-                            <h1>[Variable]</h1>
-                        </div>
-                        <div class="nav-links flex justify-evenly w-1/2 font-sans text-xl font-medium">
-                            <a href="#" class="nav-link">Home</a>
-                            <a href="#" class="nav-link">About</a>
-                            <a href="#" class="nav-link">Services</a>
-                            <a href="#" class="nav-link">Contact</a>
-                        </div>
+                    <!-- NavBar section  -->
+                    <div class="navbar  fixed top-0  left-1/2  -translate-x-1/2  ">
+                        <nav class="flex justify-between w-[55rem] items-center p-4  rounded-full shadow-lg">
+                            <div class="text-2xl font-bold text-foreground">Shape.</div>
+                            <ul class="flex space-x-6">
+                                <li class="relative">
+                                    <a href="#" class="text-muted-foreground hover:text-primary">Services</a>
+
+                                </li>
+                                <li>
+                                    <a href="#" class="text-muted-foreground hover:text-primary">Work</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-muted-foreground hover:text-primary">About</a>
+                                </li>
+
+                                <li>
+                                    <a href="#" class="text-muted-foreground hover:text-primary">Contact</a>
+                                </li>
+                            </ul>
+                            <div class="flex items-center space-x-2">
+                                <button
+                                    class="bg-slate-200 rounded-full text-secondary-foreground hover:bg-secondary/80 p-2 ">Start
+                                    a project</button>
+                            </div>
+                        </nav>
+
                     </div>
 
                     <canvas id="frame" class="w-full h-screen">
@@ -67,7 +82,7 @@
                 <h2>& engagement models</h2>
             </div>
             <div id="page3-ele">
-                
+
                 <div class="box" id="Coded Website">
                     <img src="https://images.prismic.io/rejouice/d8e1fa1f-4f24-41e1-a249-098c62df5aff_Group+46+%281%29.jpg?auto=compress,format"
                         alt="">
