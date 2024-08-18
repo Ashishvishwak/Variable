@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
@@ -82,3 +82,28 @@
 }
 
 
+.text-stroke {
+    -webkit-text-stroke: 1px #ffffff;
+}
+
+
+.elem h1 {
+    animation-name: marquee-anime;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    margin-right: 20px;
+
+}
+
+@keyframes marquee-anime {
+    from {
+        transform: translateX(0%);
+
+    }
+
+    to {
+        transform: translateX(calc(-100% - 20px));
+
+    }
+}
