@@ -61,7 +61,6 @@ function StartAnimation() {
         scrollTrigger: {
             trigger: ".parent",
             start: "top top",
-          
             scrub: 2,
             // markers: true
         }

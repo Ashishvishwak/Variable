@@ -48,12 +48,11 @@ function page1() {
       end:"",
 
       scrub: 2,
-      markers: true
+      // markers: true
     }
   });
-
-
-
 }
+
+
 page1() 
 loder()
