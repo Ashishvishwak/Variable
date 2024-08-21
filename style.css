@@ -7,27 +7,86 @@
     font-family: oswald;
     src: url(/Font/oswald-latin.ttf);
 }
+
 @font-face {
     font-family: montserrat_thin;
     src: url(/Font/montserrat-latin.ttf);
 }
 
 
-:root {
-    --blue: #1e90ff;
-    --white: #ffffff;
-    --Black: #000000;
-  }
 
-.primaryFont{
-    font-family:montserrat_thin ;
-}
-.secondaryFont{
-    font-family:montserrat_thin ;
+
+.colour60 {
+    background: #121416;
+    color: #c5c2c1;
 }
 
 
 
+.hind-light {
+    font-family: "Hind", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.hind-regular {
+    font-family: "Hind", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.hind-medium {
+    font-family: "Hind", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.hind-semibold {
+    font-family: "Hind", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.hind-bold {
+    font-family: "Hind", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.montserrat-light {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.montserrat-regular {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.montserrat-medium {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.montserrat-semibold {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.montserrat-bold {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
 
 
 
@@ -37,8 +96,8 @@
 
 
 .text-stroke {
-    -webkit-text-stroke:2px   var(--white); 
-   
+    -webkit-text-stroke: 2px #ffff;
+
 }
 
 /* start */
@@ -64,7 +123,6 @@
     }
 
 }
+
 /* hero section marquee animation */
 /* end */
-
-

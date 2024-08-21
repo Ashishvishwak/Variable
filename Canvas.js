@@ -60,6 +60,7 @@ function StartAnimation() {
     let tl = gsap.timeline({
         scrollTrigger: {
             trigger: ".parent",
+        scroller:"#main",
             start: "top top",
             scrub: 2,
             // markers: true
